@@ -1,0 +1,68 @@
+#gst-main {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  align-items: center;
+}
+.gst-body {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  font-family: "GangwonEdu_OTFBoldA";
+  width: 85%;
+}
+.gst-title {
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  background-color: #dbdbdb;
+}
+#gst-title-num {
+  flex: 1;
+}
+#gst-title-name {
+  color: mediumorchid;
+  flex: 8;
+  margin-left: 0.5rem;
+}
+#gst-title-date {
+  flex: 2;
+  font-size: smaller;
+}
+.gst-site {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+  align-items: center;
+}
+.gst-site-img {
+  flex: 0 0 8rem;
+  background-color: antiquewhite;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+.gst-site-para {
+  display: flex;
+  height: 9rem;
+  margin: 0.5rem;
+  margin-right: 0;
+  padding: 0.5rem;
+  flex: auto;
+  border-radius: 5px;
+  overflow: auto;
+  background-color: #dbdbdb46;
+}
+#gst-img-1 {
+  background-image: url(../static/image/𓂃\ \ 💿\ wallpaper\ \ ‹𝟹.jpg);
+  background-size: cover;
+}
+#gst-img-2 {
+  background-image: url(../static/image/What\ is\ an\ AHA_.jpg);
+  background-size: cover;
+}
+#gst-img-3 {
+  background-image: url(../static/image/트위터.jpg);
+  background-size: cover;
+}

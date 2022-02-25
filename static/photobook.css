@@ -1,0 +1,23 @@
+.pht-body {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+.pht-title {
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  background-color: #dbdbdb;
+  width: 85%;
+}
+.img-site {
+  margin: 0.2rem;
+  width: 85%;
+  /*border: solid 1px;*/
+}
+.img-site > img {
+  width: 100%;
+}

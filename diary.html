@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./static/font.css"/>
+  <link rel="stylesheet" href="./static/diary.css"/>
+  <link rel="stylesheet" href="./static/layout.css"/>
+  <link rel="stylesheet" href="./static/action.css"/>
+  <script src="https://kit.fontawesome.com/1ea5c39d2c.js" crossorigin="anonymous"></script>
+  <title>UnUs</title>
+</head>
+<body>
+  <div class="bookcover">
+    <div class="bookdot">
+      <div class="page">
+        <div class="side">
+
+          <div class="side top">
+            <div id="top-1">TODAY28 / TOTAL 12345</div>
+          </div>
+
+          <div class="side bttm inf">
+            <div id="profile">
+              <img id="pr" src="./static/image/KakaoTalk_20211228_124253579.jpg" alt="profile.jpg">
+            </div>
+            <div id="intro">
+              <p>안녕하세요🐸 <br/>도딩요정코비입니다<br/>
+                잘부탁드려요
+              </p>
+            </div>
+            <div id="etc">
+              <p>Dobby will be Free...!</p>
+              <select id="drop">
+                <option class="drop-item"><a href="#">파도타기</a></option>
+                <option class="drop-item"><a href="https://www.youtube.com/">유튜브</a></option>
+                <option class="drop-item"><a href="https://cafe.naver.com/codeuniv/48783">모각코</a></option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="main">
+          <div class="main top">
+            <div id="top-2">Welcome~💕</div>
+            <div id="top-3">https://url주소/나중에입력</div>
+          </div>
+
+          <div class="main bttm">
+
+            <div class="diary-calender">
+              <div class="today"><span id="today-1">02/21</span><span id="today-2">TUE</span></div>
+              <div class="month">
+                <span class="day">1</span>
+                <span class="day">2</span>
+                <span class="day">3</span>
+                <span class="day">4</span>
+                <span class="day">5</span>
+                <span class="day">6</span>
+                <span class="day">7</span>
+                <span class="day">8</span>
+                <span class="day">9</span>
+                <span class="day">10</span>
+                <span class="day">11</span>
+                <span class="day">12</span>
+                <span class="day">13</span>
+                <span class="day">14</span>
+                <span class="day">15</span>
+                <span class="day">16</span>
+                <span class="day">17</span>
+                <span class="day">18</span>
+                <span class="day">19</span>
+                <span class="day">20</span>
+                <span class="day">21</span>
+                <span class="day">22</span>
+                <span class="day">23</span>
+                <span class="day">24</span>
+                <span class="day">25</span>
+                <span class="day">26</span>
+                <span class="day">27</span>
+                <span class="day">28</span>
+              </div>
+            </div>
+
+            <div class="diary-main">
+
+              <div class="diary-page">
+                <div class="diary-title">서시 - 윤동주
+                  <span id="date">02.21.2022</span>
+                </div>
+                <div class="diary-site">죽는 날까지 하늘을 우러러<br/>한 점 부끄럼 없기를<br/>잎새에 이는 바람에도<br/>나는 괴로워 했다.<br/>별을 노래하는 마음으로<br/>모든 죽어가는 것을 사랑해야지<br/>그리고 나한테 주어진 길을 걸어가야겠다<br/><br/>오늘 밤에도 별이 바람에 스치운다</div>
+              </div>
+
+              <div class="diary-page">
+                <div class="diary-title">오늘의 일기
+                  <span id="date">02.21.2022</span>
+                </div>
+                <div class="diary-site">이게 뭐라고 제일 힘들었는지....<br/>전부 삭제했다가 다시했다.<br/>그래도 만족스럽지가 않다<br/>후..</div>
+              </div>
+
+              <div class="diary-page">
+                <div class="diary-title">낙화 - 이형기
+                  <span id="date">02.21.2022</span>
+                </div>
+                <div class="diary-site">가야 할 때가 언제인가를<br/>
+                  분명히 알고 가는 이의<br/>
+                  뒷모습은 얼마나 아름다운가.<br/>
+                  <br/>
+                  봄 한 철<br/>
+                  격정을 인내한<br/>
+                  나의 사랑은 지고 있다.<br/>
+                  <br/>
+                  분분한 낙화.<br/>
+                  결별이 이룩하는 축복에 싸여<br/>
+                  지금은 가야 할 때<br/>
+                  <br/>
+                  무성한 녹음과 그리고<br/>
+                  머지않아 열매 맺는<br/>
+                  가을을 향하여<br/>
+                  나의 청춘은 꽃답게 죽는다.<br/>
+                  <br/>
+                  헤어지자<br/>
+                  섬세한 손길을 흔들며<br/>
+                  하롱하롱 꽃잎이 지는 어느 날<br/>
+                  <br/>
+                  나의 사랑, 나의 결별<br/>
+                  샘터에 물 고이듯 성숙하는<br/>
+                  내 영혼의 슬픈 눈.</div>
+              </div>
+
+              <div id="scrt-diary" class="diary-page">
+                <div class="diary-title">비밀의 방
+                  <span id="date">02.22.2022</span>
+                </div>
+                <div id="scrt-site" class="diary-site"></div>
+              </div>
+              
+              <div id="secret">
+                <button id="scrt-btn" onclick="openSecret()"><i class="fa-solid fa-wand-magic-sparkles"></i>도비의 비밀의 방</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-1"></div>
+          <div class="bar-2">
+            <a href="./mypage.html"><div class="bar-1">홈</div></a>
+            <a href="./diary.html"><div class="bar-2">다이어리</div></a>
+            <a href="./photobook.html"><div class="bar-3">사진첩</div></a>
+            <a href="./guestbook.html"><div class="bar-4">방명록</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function openSecret(){
+      var input = document.createElement("input");
+      input.type = "file";
+      input.accept = "text/plain";
+      input.onchange = function(event) {
+        processfile(event.target.files[0]);
+      };
+      input.click();
+    }
+
+    function processfile(file){
+      var reader = new FileReader();
+      reader.readAsText(file, "UTF-8");
+      
+      reader.onload = function(){
+        document.getElementById("scrt-site").innerText = reader.result;
+        document.getElementById("scrt-diary").style.display = "unset";
+      };
+    }
+  </script>
+</body>
+</html>

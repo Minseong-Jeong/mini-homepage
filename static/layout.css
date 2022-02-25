@@ -1,0 +1,154 @@
+body {
+  background-image: url(./image/pattern.png);
+  background-size: 100px;
+  background-color: #bdbdbd;
+}
+.bookcover {
+  position: relative;
+  margin: 5rem 5rem;
+  width: 60rem;
+  height: 49rem;
+  background-color: #a7d8dd;
+  border-radius: 5px;
+  border: 1px solid #738186;
+}
+.bookcover .bookdot {
+  position: absolute;
+  margin: 1rem 1rem;
+  width: 58rem;
+  height: 47rem;
+  border-radius: 5px;
+  border: dashed 2px #f0f0f0;
+}
+.bookdot .page {
+  position: absolute;
+  margin: 0.5rem;
+  background-color: #f0f0f0;
+  width: 57rem;
+  height: 46rem;
+  border-radius: 3px;
+  display: flex;
+}
+.side {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 1rem;
+  flex: 0.3;
+  border-radius: 5px;
+}
+#etc {
+  display: flex;
+  flex-direction: column;
+}
+#etc > div {
+  display: flex;
+  width: rem;
+  height: 1rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-right: 0;
+  flex: 1;
+  border-radius: 5px;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 0.15;
+  padding: 1px;
+  margin: 1rem;
+  margin-left: 0;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+.bar-1 {
+  flex: 0.08;
+  margin-top: 1rem;
+}
+.bar-2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.bar > .bar-2 > a > div {
+  background-color: #a7d8dd;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 0.3rem;
+}
+.bar > .bar-2 > a {
+  text-decoration: none;
+  color: unset;
+  margin-top: 0.5rem;
+}
+.top {
+  display: flex;
+  flex: 0.08;
+  margin-bottom: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.bttm {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  border: solid 1px #bdbdbd;
+  margin: 0;
+  overflow: auto;
+}
+.bttm > div {
+  display: flex;
+}
+#top-1 {
+  flex: 1;
+  text-align: center;
+  font-size: x-small;
+  font-family: "IM_Hyemin-Bold";
+}
+#top-2 {
+  flex: 1;
+  font-size: small;
+  font-family: "IM_Hyemin-Bold";
+}
+#top-3 {
+  flex: 1;
+  font-size: small;
+  font-family: "IM_Hyemin-Bold";
+}
+.inf {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0.5rem;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+#profile {
+  flex: 1;
+  border: solid 1px #738186;
+  display: flex;
+  align-items: center;
+}
+#profile > #pr {
+  display: flex;
+  width: 10rem;
+  height: 13rem;
+}
+#pr {
+  width: 9em;
+  height: 9em;
+}
+#intro {
+  flex: 1;
+  font-size: 0.8rem;
+}
+#etc {
+  flex: 1;
+  text-align: center;
+}
+#drop {
+  padding: 0.6rem;
+}

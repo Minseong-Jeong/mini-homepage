@@ -1,0 +1,58 @@
+.diary-calender {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: "Cafe24Ssurround";
+  padding: 0.3rem;
+}
+.today {
+  flex: 0.25;
+  background-color: #e6e6e6;
+  flex-wrap: wrap;
+}
+.today > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.month {
+  flex: 1;
+  background-color: #f0f0f0;
+  flex-wrap: wrap;
+  overflow-x: visible;
+}
+.diary-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: auto;
+  font-family: "GangwonEdu_OTFBoldA";
+  margin: 1.5rem;
+}
+.diary-page {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+.diary-title {
+  display: flex;
+  padding: 0.5rem;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.diary-site {
+  padding: 1rem;
+}
+#scrt-btn {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 1px white;
+  color: white;
+  background-color: aliceblue;
+}
+#scrt-diary {
+  display: none;
+}

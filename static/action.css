@@ -1,0 +1,16 @@
+.list > div:hover {
+  cursor: pointer;
+}
+.bar > .bar-2 > a > div:hover {
+  cursor: pointer;
+  background-color: #9298b7;
+}
+#scrt-btn:hover {
+  background-color: aquamarine;
+  transition: 600ms ease-in-out all;
+  cursor: pointer;
+}
+.part2 > a:hover {
+  text-decoration: dotted;
+  color: #9298b7;
+}

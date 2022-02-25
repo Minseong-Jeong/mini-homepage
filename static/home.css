@@ -1,0 +1,89 @@
+.updatenews {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+  margin: 0;
+  flex: 0.4;
+}
+.updatenews > hr {
+  margin: 0px;
+}
+.miniroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+  margin: 0;
+}
+.title {
+  margin: 0;
+  color: #94c0a4;
+  font-family: "IM_Hyemin-Bold";
+  font-size: normal;
+}
+.room {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.room > img {
+  width: 28rem;
+  height: 20rem;
+}
+.part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: #94c0a4;
+}
+.part div {
+  display: flex;
+  flex: 1;
+  padding: 0.5em;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: "GangwonEdu_OTFBoldA";
+  font-size: smaller;
+}
+.list > div {
+  margin: 4px;
+}
+.list > div > p {
+  display: flex;
+  padding: 0px;
+  font-size: 0.8rem;
+  margin: 2px;
+  align-items: center;
+}
+.part2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+.part2 > a {
+  text-decoration: none;
+  color: unset;
+}
+#part2-num {
+  color: crimson;
+  margin-left: 1rem;
+}
+.photo {
+  background-color: sandybrown;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
+.note {
+  background-color: darkcyan;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
